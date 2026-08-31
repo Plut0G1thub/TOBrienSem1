@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\web\\Documents\\TOBrienSem1\\TOBrienSem1.csproj": {}
+    "c:\\Users\\web\\Documents\\TOBrienSem1\\Project\\TOBrienSem1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\web\\Documents\\TOBrienSem1\\TOBrienSem1.csproj": {
+    "c:\\Users\\web\\Documents\\TOBrienSem1\\Project\\TOBrienSem1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\web\\Documents\\TOBrienSem1\\TOBrienSem1.csproj",
+        "projectUniqueName": "c:\\Users\\web\\Documents\\TOBrienSem1\\Project\\TOBrienSem1.csproj",
         "projectName": "TOBrienSem1",
-        "projectPath": "C:\\Users\\web\\Documents\\TOBrienSem1\\TOBrienSem1.csproj",
+        "projectPath": "c:\\Users\\web\\Documents\\TOBrienSem1\\Project\\TOBrienSem1.csproj",
         "packagesPath": "C:\\Users\\web\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\web\\Documents\\TOBrienSem1\\obj\\",
+        "outputPath": "c:\\Users\\web\\Documents\\TOBrienSem1\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
