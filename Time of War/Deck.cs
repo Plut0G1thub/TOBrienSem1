@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace GameOfWar
 {
     public class Deck
@@ -15,10 +17,10 @@ namespace GameOfWar
 
 
         // Create a public int property Count that returns the Count value from the private collection _cards
-
+        public int Count = _cards.Count;
 
         // Create a private field _cards that is a List<Card>
-
+        private List<Card> _cards;
 
         // Create a public constructor that takes two parameter: a List<card> called cards and a boolean value called isEmptyDeck
         // If cards is not null and has elements in it, assign it to _cards and be done
