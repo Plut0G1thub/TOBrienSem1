@@ -1,13 +1,15 @@
+using System.IO.Compression;
+
 namespace GameOfWar
 {
     public class Card
     {
 
         // Create a string property Suit with a private setter
-        private string Suit {set;}
+        private string Suit {get ;set;}
 
         // Create an int property Rank with a private setter - values should range from 0 for a face value of 2 to 12 for an Ace
-        private int Rank {set;}
+        private int Rank {get;set;}
 
         // Create a public constructor that takes suit and rank as arguments and assigns them to Suit and Rank
         public Card(string suit, int rank)
@@ -31,6 +33,10 @@ namespace GameOfWar
         // Create a public string method RankString that returns a string representation of this card's rank, 2-10 and Jack, Queen, King, Ace
         public string RankString()
         {
+            if (Rank > 1 && Rank < 10)
+            {
+                return $"{Rank}";
+            }
             switch (Rank)
             {
                 case 11:
@@ -39,9 +45,11 @@ namespace GameOfWar
                     return "Queen";
                 case 13: 
                     return "King";
-                case 14:
+                case 14 | 1:
                     return "Ace";
             }
+
+            return "Invalid";
         }
     }
 }

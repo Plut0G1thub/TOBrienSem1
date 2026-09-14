@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TOBrienSem1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34d42a63fef40744892fbb0682197d14f15c1196")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b32fe621306d74114573a1593678f27a092f52de")]
 [assembly: System.Reflection.AssemblyProductAttribute("TOBrienSem1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TOBrienSem1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
